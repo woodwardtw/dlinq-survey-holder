@@ -1,0 +1,46 @@
+#launch-survey {
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+}
+
+#the-survey {
+  background-color: red;
+  display: none; /* Hidden by default */
+  z-index: 1; /* Sit on top */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%; /* Full height */
+  width: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: all .3s;
+  padding-top: 80px;
+  }
+
+#the-survey.show {
+ 	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Full width */
+ }
+
+.survey-content{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+ #gform_wrapper_1, #gform_confirmation_wrapper_1 {
+ 	background-color: #fff;
+ 	padding: 20px 40px;
+ }
+
+ #close-survey {
+ 	margin-left: auto;
+ 	background-color: red;
+ 	border: none;
+ 	display: block;
+ }
