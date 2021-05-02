@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
   button.addEventListener("click", showSurvey);
   let close = document.querySelector('#close-survey');
   close.addEventListener("click", hideSurvey);
-  
+  	
 });
 
 function showSurvey(){
